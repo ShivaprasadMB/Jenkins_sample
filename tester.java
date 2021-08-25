@@ -10,7 +10,7 @@ public class tester {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://localhost:8080/job/git_html_demo/ws/index.html");
+		driver.get("http://localhost:8080/job/git_selenium/ws/index.html");
     String h1_content = driver.findElement(By.tagName("h1")).getAttribute("innerHTML");
     if(h1_content == "This is a sample page!"){
       System.out.println("it is correct !");
